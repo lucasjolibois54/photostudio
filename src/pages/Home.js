@@ -1,10 +1,9 @@
 import React from 'react'
-import Nav from '../components/Nav'
 
 function Home() {
   return (
     <>
-    <h2>home</h2>
+    <h2 className='text-red-500'>home</h2>
     </>
   )
 }
