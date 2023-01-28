@@ -176,6 +176,19 @@ function Home() {
       {result && <img className='main-image' ref={imageRef} src={result} alt="" style={getImageStyle()}/>}
     </div>
 
+    {/* <div className='input-center'>
+      
+      {result && <img className='main-image' ref={imageRef} src={result} alt="" style={getImageStyle()}/>}
+      
+      <input className='bg-gray-none text-gray-400 input-center container container-input w-full border-2 border-neon-green border-dashed rounded-lg '
+        type="file"
+        onChange={(e) => {
+          setImage(e.target.files[0]);
+          uploader(e);
+        }}
+      />
+    </div> */}
+
       </div>
       <SliderBox  
       min={selectedOption.range.min}
