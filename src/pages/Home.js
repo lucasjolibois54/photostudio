@@ -154,7 +154,7 @@ function Home() {
                 handleClick={() => setSelectedOptionIndex(index)}
                 />)
             })}
-            <input
+            <input className='bg-gray-700 text-gray-300 rounded-xl w-full'
         type="file"
         onChange={(e) => {
           setImage(e.target.files[0]);
