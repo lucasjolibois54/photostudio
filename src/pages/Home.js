@@ -9,7 +9,7 @@ const DEFAULT_OPTIONS = [
         value: 100,
         range: {
             min: 0,
-            max: 200
+            max: 300
         },
         unit: "%"
     },
