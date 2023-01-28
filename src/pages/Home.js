@@ -64,6 +64,16 @@ const DEFAULT_OPTIONS = [
         unit: "deg"
     },
     {
+        name: "Invert Colors",
+        property: "invert",
+        value: 0,
+        range: {
+            min: 0,
+            max: 100
+        },
+        unit: "%"
+    },
+    {
         name: "Blur",
         property: "blur",
         value: 0,
