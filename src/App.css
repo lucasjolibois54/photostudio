@@ -5,6 +5,7 @@
 body{
   margin: 0;
   background-color: #1A1C22;
+  overflow-y: hidden;
 }
 
 .container{
