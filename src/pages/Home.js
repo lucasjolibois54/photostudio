@@ -145,7 +145,7 @@ function Home() {
 <div className='absolute'>
 <div id="default-sidebar" className="static top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 -z-10" aria-label="Sidebar">
    <div className="h-full px-3 py-4 overflow-y-auto bg-sidebar-bg">
-      <ul className="space-y-2 mt-10">
+      <ul className="space-y-2 mt-2">
             {options.map((options, index) => {
                 return (<SidebarOptions className="relative"
                 key={index}
