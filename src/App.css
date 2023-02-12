@@ -36,6 +36,7 @@ body{
   height: calc(75vh - 7vh);
   max-height: calc(75vh - 7vh);
   width: auto;
+  max-width: 100%;
 }
 
 .container-input{
@@ -50,7 +51,7 @@ body{
   margin: 0 auto;
   width: auto;
   height: 100%;
-  max-height: calc(75vh - 7vh);
+  max-height: calc(75vh - 10vh);
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
